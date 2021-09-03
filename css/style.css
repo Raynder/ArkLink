@@ -112,12 +112,14 @@ p {
 .imagem-topico {}
 
 .rodape {
+    width: 100%;
     background-color: white;
     position: fixed;
     bottom: 0;
 }
 
 .menu {
+    height: 100%;
     float: left;
 }
 
@@ -135,3 +137,36 @@ p {
 .topicos ul.lSPager.lSpg {
     display: none;
 }
+
+
+/* icons */
+
+.fa {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-home {
+    font-size: 36pt;
+}
+
+.fa-heart {
+    font-size: 25pt;
+}
+
+i.fa.fa-cart-arrow-down {
+    font-size: 30pt;
+}
+
+i.fa.fa-bars {
+    font-size: 30pt;
+}
+
+i.fa.fa-user-o {
+    font-size: 30pt;
+}
+
+
+/* fim icons */
