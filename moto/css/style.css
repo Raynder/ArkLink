@@ -1,0 +1,114 @@
+html,
+body {
+    background-color: #dfdfdf;
+    color: #dedede;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    color: black;
+}
+
+.row.busca {
+    padding: 20px 0 5px 0;
+    background-color: #303030;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+#input-container {
+    position: relative;
+}
+
+#input-container>img {
+    position: absolute;
+    top: 4px;
+    left: 3px;
+}
+
+#input-container>input {
+    padding-left: 30px;
+    background-color: #e6e6e6;
+    font-size: 16pt;
+    width: 100%;
+    border-radius: 4px;
+    border: solid 1px grey;
+}
+
+#input-container img {
+    width: 25px;
+}
+
+
+/* Css divisão clientes  */
+
+.clientes {
+    padding-top: 70px;
+}
+
+.cliente {}
+
+
+/*Fim css divisão clientes  */
+
+.rodape {
+    width: 100%;
+    background-color: #303030;
+    position: fixed;
+    bottom: 0;
+}
+
+.menu {
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+
+.menus {
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* icons */
+
+.botao-flutuante {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    width: 10%;
+}
+
+i.fa.fa-plus-circle,
+.fa-cog {
+    position: relative;
+    font-size: 30pt;
+    color: black;
+}
+
+.fa {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa:hover {
+    color: #ba1616
+}
+
+.fa-motorcycle,
+.fa-wrench,
+.fa-users {
+    font-size: 30pt;
+}
+
+
+/* fim icons */

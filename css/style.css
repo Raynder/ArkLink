@@ -149,6 +149,10 @@ p {
     transform: translate(-50%, -50%);
 }
 
+.fa:hover {
+    color: #ba1616
+}
+
 .fa-home {
     font-size: 36pt;
 }
