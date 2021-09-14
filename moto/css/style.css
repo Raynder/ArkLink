@@ -137,11 +137,28 @@ i.fa.fa-cog {
 i.fa.fa-cog:hover{
     transform: translateY(-50%) rotate(180deg);
 }
+i.fa.fa-cog:hover > .opcoes{
+    transform: rotate(1800deg);
+}
+
+i.fa.fa-cog.opc {
+    position: relative;
+    font-size: 18pt;
+    bottom: 10px;
+}
 /* fim icons */
 
 /* Clientes */
 .cliente {
     height: 64px;
     box-shadow: 1px 2px 8px #a1a1a1;
+}
+.opcoes {
+    width: 50px;
+    font-size: 19pt;
+    right: 4px;
+    padding: 8px;
+    position: absolute;
+    transform: rotate(0deg);
 }
 /*Fim clientes */
