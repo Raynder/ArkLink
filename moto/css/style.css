@@ -14,7 +14,6 @@ p {
 }
 
 .row.busca {
-    background-image: url(../img/fundo-top.jpg);
     padding: 20px 0 5px 0;
     background-color: #303030;
     position: fixed;
