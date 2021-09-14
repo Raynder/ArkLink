@@ -14,6 +14,7 @@ p {
 }
 
 .row.busca {
+    background-image: url(../img/fundo-top.jpg);
     padding: 20px 0 5px 0;
     background-color: #303030;
     position: fixed;
@@ -108,6 +109,12 @@ i.fa.fa-plus-circle,
 .fa-wrench,
 .fa-users {
     font-size: 30pt;
+}
+
+i.fa.fa-cog {
+    padding: 8px;
+    float: right;
+    position: relative;
 }
 
 
