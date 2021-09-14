@@ -14,7 +14,7 @@ p {
 }
 
 .row.busca {
-    background-image: url(../img/fundo-top.jpg);
+    background-image: url(../img/fundo-top.webp);
     padding: 20px 0 5px 0;
     background-color: #303030;
     position: fixed;
@@ -122,6 +122,7 @@ i.fa.fa-cog {
 
 /* Clientes */
 .cliente {
+    height: 100%;
     box-shadow: 1px 2px 8px #a1a1a1;
 }
 /*Fim clientes */
