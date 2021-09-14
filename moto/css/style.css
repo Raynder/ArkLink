@@ -93,7 +93,7 @@ i.fa.fa-plus-circle,
     color: black;
 }
 
-.fa {
+.icn-fa {
     position: relative;
     top: 50%;
     left: 50%;
@@ -112,3 +112,9 @@ i.fa.fa-plus-circle,
 
 
 /* fim icons */
+
+/* Clientes */
+.cliente {
+    box-shadow: 1px 2px 8px #a1a1a1;
+}
+/*Fim clientes */
