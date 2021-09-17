@@ -39,21 +39,28 @@
         <div class="row">
             <div class="clientes">
                 <div class="cliente">
-                    <div class="opcoes">
+                    <div id="opc_1" class="opcoes">
                         <i class="fa fa-cog opc" aria-hidden="true"></i>
                     </div>
-                    <i class="fa fa-cog" aria-hidden="true"></i><p class="nomeCliente">Raynder</p>
+                    <i id="_1" class="fa fa-cog" onclick="abrir_menu(this.id)" aria-hidden="true"></i><p class="nomeCliente">Raynder</p>
                 </div>
                 <div class="cliente">
-                    <i class="fa fa-cog" aria-hidden="true"></i><p class="nomeCliente">Raynder</p>
+                    <i id="_2" class="fa fa-cog" onclick="abrir_menu(this.id)" aria-hidden="true"></i><p class="nomeCliente">Raynder</p>
                 </div>
                 <div class="cliente">
-                    <i class="fa fa-cog" aria-hidden="true"></i><p class="nomeCliente">Raynder</p>
+                    <i id="_3" class="fa fa-cog" onclick="abrir_menu(this.id)" aria-hidden="true"></i><p class="nomeCliente">Raynder</p>
                 </div>
                 <div class="cliente">
-                    <i class="fa fa-cog" aria-hidden="true"></i><p class="nomeCliente">Raynder</p>
+                    <i id="_4" class="fa fa-cog" onclick="abrir_menu(this.id)" aria-hidden="true"></i><p class="nomeCliente">Raynder</p>
                 </div>
             </div>
+
+            <script>
+                abiri_menu(mn){
+                    menu = "opc"+mn;
+                    document.getElementById(menu).style.rotate = '360deg';
+                }
+            </script>
 
         </div>
         <!-- Fim dos Clientes -->

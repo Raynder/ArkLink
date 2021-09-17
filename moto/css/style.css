@@ -127,6 +127,7 @@ i.fa.fa-plus-circle,
 }
 
 i.fa.fa-cog {
+    z-index: 3;
     top: 50%;
     transition: 1s;
     transform: translateY(-50%) rotate(0deg);
@@ -154,11 +155,12 @@ i.fa.fa-cog.opc {
     box-shadow: 1px 2px 8px #a1a1a1;
 }
 .opcoes {
+    z-index: 2;
     width: 50px;
     font-size: 19pt;
     right: 16px;
     padding: 8px;
     position: absolute;
-    transform: translateY(-50%) rotate(400deg);
+    transform: rotate(130deg);
 }
 /*Fim clientes */
