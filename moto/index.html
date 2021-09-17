@@ -37,6 +37,12 @@
 
         <!-- Clientes -->
         <div class="row">
+            <script>
+                function abiri_menu(mn){
+                    menu = "opc"+mn;
+                    document.getElementById(menu).style.rotate = '360deg';
+                }
+            </script>
             <div class="clientes">
                 <div class="cliente">
                     <div id="opc_1" class="opcoes">
@@ -55,12 +61,6 @@
                 </div>
             </div>
 
-            <script>
-                abiri_menu(mn){
-                    menu = "opc"+mn;
-                    document.getElementById(menu).style.rotate = '360deg';
-                }
-            </script>
 
         </div>
         <!-- Fim dos Clientes -->
