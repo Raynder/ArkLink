@@ -156,9 +156,9 @@ i.fa.fa-cog.opc {
 .opcoes {
     width: 50px;
     font-size: 19pt;
-    right: 4px;
+    right: 16px;
     padding: 8px;
     position: absolute;
-    transform: rotate(0deg);
+    transform: translateY(-50%) rotate(400deg);
 }
 /*Fim clientes */
