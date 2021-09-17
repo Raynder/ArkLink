@@ -38,10 +38,10 @@
         <!-- Clientes -->
         <div class="row">
             <script>
-                function abiri_menu(mn){
+                function abrir_menu(mn){
                     menu = "opc"+mn;
                     elemento = document.getElementById(menu)
-                    ico = elemento.getElementByTagName('i')
+                    ico = elemento.getElementsByTagName('i')
                     elemento.webkitTransform = "rotate(360deg)";
                     ico.style.fontSize = '18pt'
                 }
