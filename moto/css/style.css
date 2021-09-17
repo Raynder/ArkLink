@@ -143,8 +143,9 @@ i.fa.fa-cog:hover > .opcoes{
 }
 
 i.fa.fa-cog.opc {
+    transition: 1s;
     position: relative;
-    font-size: 18pt;
+    font-size: 0pt;
     bottom: 10px;
 }
 /* fim icons */
@@ -155,9 +156,9 @@ i.fa.fa-cog.opc {
     box-shadow: 1px 2px 8px #a1a1a1;
 }
 .opcoes {
+    transition: 1;
     z-index: 2;
     width: 50px;
-    font-size: 19pt;
     right: 16px;
     padding: 8px;
     position: absolute;
