@@ -156,7 +156,7 @@ i.fa.fa-cog.opc {
     box-shadow: 1px 2px 8px #a1a1a1;
 }
 .opcoes {
-    transition: 1;
+    transition: 1s;
     z-index: 2;
     width: 50px;
     right: 16px;
