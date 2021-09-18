@@ -143,7 +143,7 @@ i.fa.fa-cog:hover > .opcoes{
 }
 
 i.fa.fa-cog.opc {
-    transition: 1s;
+    transition: .6s;
     position: relative;
     font-size: 0pt;
     bottom: 10px;
