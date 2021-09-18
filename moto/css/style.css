@@ -146,11 +146,11 @@ i.fa.fa-cog.opc {
     transition: .6s;
     position: relative;
     font-size: 0pt;
-    bottom: 10px;
+    bottom: 20px;
 }
 i.fa.fa-cog.opc.item2 {
     top: -38px;
-    right: 24px;
+    right: 31px;
 }
 /* fim icons */
 
