@@ -31,8 +31,8 @@
  <p>Aproveite para nos conhecer melhor, veja alguns de nossos projetos e quem sabe você encontre algo que lhe agrada.</p>
 
 <h1 id="projeto">Projeto</h1>
- <p>Este trabalho foi desenvolvido por Arkadian e Alpha MKT Digital. Se trata de um aplicativo de delivere para estabelecimentos de qualquer porte, uma aplicação facil de ser usada, tanto para o cliente que esta acessando quanto para o dono do estabelecimento que queira ultilizar a aplicação como divulgação e marketing para seu estabelecimento.
-Quer visualizar nosso template? basta acessar raynder.github.io/Template</p>
+ <p>Este trabalho foi desenvolvido por Arkadian e Alpha MKT Digital. Se trata de um aplicativo de delivere para estabelecimentos de qualquer porte, uma aplicação facil de ser usada, tanto para o cliente que esta acessando quanto para o dono do estabelecimento que queira ultilizar a aplicação como divulgação e marketing para seu comercio.
+Quer visualizar nosso template? basta acessar https://raynder.github.io/Template</p>
 
  
 
