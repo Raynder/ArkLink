@@ -1,7 +1,7 @@
 html,
 body {
     background-color: #dfdfdf;
-    color: #dedede;
+    color: #ba1616;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
     height: 100vh;
@@ -43,8 +43,20 @@ p {
     width: 25px;
 }
 
-.topicos {
-    margin-top: 60px;
+.recentes {
+    margin-top: 80px;
+}
+
+.recente {
+    float: left;
+    padding: 12px;
+    width: 25%;
+}
+
+.imagem-recente {
+    background-color: #cecece;
+    width: 100%;
+    border-radius: 50%;
 }
 
 .topicos,
@@ -75,7 +87,6 @@ p {
 
 .destaques {
     margin: 10px 5px 0px 10px;
-    width: 95%;
     position: relative;
     padding: 0;
 }
@@ -100,13 +111,6 @@ p {
 
 .recentes .topico {
     padding: 0 10px;
-}
-
-.recentes .imagem-topico {
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
-    background-color: #cecece;
 }
 
 .imagem-topico {}
@@ -143,6 +147,7 @@ p {
 /* icons */
 
 .fa {
+    color: #dedede;
     position: relative;
     top: 50%;
     left: 50%;
