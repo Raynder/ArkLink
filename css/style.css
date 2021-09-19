@@ -121,7 +121,9 @@ p {
     padding: 0 10px;
 }
 
-.imagem-topico {}
+.espaco-rodape {
+    height: 48px;
+}
 
 .rodape {
     width: 100%;
