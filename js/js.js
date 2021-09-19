@@ -1,3 +1,4 @@
+// Inicia carrousel dos tipos
 $(document).ready(function() {
     $("#autoWidth").lightSlider({
         autoWidth: true,
@@ -7,6 +8,10 @@ $(document).ready(function() {
         }
     });
 });
+// Fim do script
+
+
+// Iniciar carrosel de destaques
 $(document).ready(function() {
     $(".owl-carousel").owlCarousel({
         items: 1,
@@ -15,3 +20,4 @@ $(document).ready(function() {
         autoplayTimeout: 3000
     });
 });
+// FIm do script
