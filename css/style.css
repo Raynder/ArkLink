@@ -139,6 +139,7 @@ p {
 
 /* Estilo maior */
 .rodape {
+    transition: 1s;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -150,6 +151,7 @@ p {
 /* Fim */
 
 .menu {
+    transition: 1s;
     width: 20%;
     height: 100%;
     float: left;
